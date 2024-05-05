@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, 
+       initial-scale-1, shrink-to-fit=no">
+  <title>COMP 126 Final Project</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <script src="js/responsive-nav.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="home"><a href="index.html">Home</a></div>
+        <nav class="nav-collapse">     
+            <ul>
+                <li class="menu-item"><a href="projects.html" data-scroll>Projects</a></li>
+                <li class="menu-item"><a href="skills.html" data-scroll>Skills</a></li>
+                <li class="menu-item"><a href="contact.html" data-scroll>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id = "title">
+        <div class="spacer"></div>
+        <h1>Anita Murali</h1>
+        <div class="spacer" id="unique"></div>
+    </div>
+
+    <main>
+        <section id="center-on-page">
+            <h2>Contact</h2>
+            <section class ="contact-section">
+                <div class="spacer"></div>
+                <p id="contact-text">If you have any questions or want to reach out, please feel free to do so using the form below! 
+                    Alternatively, my email is anitamurali02@gmail.com. You can also view my resume and LinkedIn through the links below.
+                </p>
+                <div class="spacer"></div>
+                <div class="images">
+                    <div class = "image-background">
+                        <a href="files/AnitaMurali_Resume.pdf">
+                            <img id="file" src="imgs/file.png" alt="file_icon">
+                        </a>
+                        <p class="label">Resume</p>
+                    </div>   
+                    
+                    <div class = "image-background">
+                        <a href="https://www.linkedin.com/in/anitamurali">
+                            <img id="linkedin" src="imgs/linkedin.png" alt="linkedin_icon">
+                        </a>
+                        <p class="label">LinkedIn</p>
+                    </div>
+                </div>
+
+                <div class="spacer" id="unique"></div>
+
+                <div class="contact-form">
+                    <form id="contact-list-form">
+                        <p class="bold-text">Send me a message!</p>
+                        <div class="spacer"></div>
+                        <p>Your name</p>
+                        <input type="text" id="name" name="name" required>
+                        <p>Email</p>
+                        <input type="email" id="email" name="email" required>
+                        <p>Message</p>
+                        <textarea id="message" name="message" required></textarea>
+                        <div class="spacer" id="unique"></div>
+                        <button type="submit">SUBMIT</button>
+                    </form>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <script src="js/fastclick.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
+
+    <footer>
+        <p>© Copyright 2024 Anita Murali</p>
+    </footer>
+
+</body>
+</html>
